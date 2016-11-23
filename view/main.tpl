@@ -16,7 +16,7 @@
 
     <h1>Manage your Employees</h1>
     <h2>Request Type (:mode ~ GET:)</h2>
-    <div class="container search-div"> 
+    <div id="search-div" class="container"> 
       <h3>Search an Employer</h3>
       <form action="search" method="POST" id="search">
         <input type="number" 

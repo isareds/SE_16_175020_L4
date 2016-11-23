@@ -4,6 +4,7 @@ html, body{
     margin: 0;
     box-sizing: border-box;
     background-color: lightgrey;
+    font-family: Arial, sans-serif;
 }
 
 #main-container{
@@ -23,13 +24,14 @@ html, body{
 .container{
     background-color: white;
     height: 400px;
-    width: 33%;
+    width: 29%;
     float: left;
-    margin: 0 2px;
+    margin: 0 25px;
 }
-.search-div{
+#search-div{
+  margin-left: 38px;
 }
-.search-div form{
+#search-div form{
     background-color: white;
     display: block;
 }
@@ -50,6 +52,7 @@ html, body{
 }
 
 input{
+    font-family: Arial, sans-serif;
     display: block;
     margin-bottom: 5px;
     padding: 5px;
@@ -57,6 +60,7 @@ input{
 }
 input[type=submit]{
     margin-top: 20px;
+    font-family: Arial, sans-serif;
 }
 button{
     margin: 0 auto;
