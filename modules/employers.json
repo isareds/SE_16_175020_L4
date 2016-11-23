@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "level": "1",
+        "name": "Giacomo",
+        "salary": "23425364754",
+        "surname": "Alberini"
+    },
+    {
+        "id": 2,
+        "level": "3",
+        "name": "Isacco",
+        "salary": "4389264378925",
+        "surname": "Rossi"
+    },
+    {
+        "id": 3,
+        "level": "7",
+        "name": "Paolo",
+        "salary": "2387426539830",
+        "surname": "Zenone"
+    }
+]

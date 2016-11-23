@@ -1,0 +1,26 @@
+{
+  "name": "se_16_175020_l4",
+  "version": "1.0.0",
+  "description": "application in node.js which manages employees.",
+  "main": "index.js",
+  "dependencies": {
+    "bind": "^0.1.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isareds/SE_16_-175020_L4.git"
+  },
+  "author": "Isacco Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isareds/SE_16_-175020_L4/issues"
+  },
+  "homepage": "https://github.com/isareds/SE_16_-175020_L4#readme"
+}
