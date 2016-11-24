@@ -121,7 +121,7 @@ app.post('/', function(request, response) {
   });
 });
 
-app.listen(8000, function(data) {
+app.listen(process.env.PORT || 8000, function(data) {
   EmployerManager.init();
 
 
