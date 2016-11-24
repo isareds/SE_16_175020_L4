@@ -27,11 +27,11 @@
     </div>
     <div id="result" class="container">
       <form action="delete" method="POST" id="result" class="(:if[show]~ [:then~ show:][:else~ hide:]:)">
-        <input type="number" name="id" value="(: id ~ "":)">
-        <input type="text" name="name" value="(: name ~ "":)">
-        <input type="text" name="surname" value="(: surname~ "":)">
-        <input type="text" name="level" value="(: level~ "":)">
-        <input type="text" name="salary" value="(: salary ~ "":)">
+       id: <input type="number" name="id" value="(: id ~ "":)">
+       name: <input type="text" name="name" value="(: name ~ "":)">
+       surname: <input type="text" name="surname" value="(: surname~ "":)">
+       level: <input type="text" name="level" value="(: level~ "":)">
+       salary: <input type="text" name="salary" value="(: salary ~ "":)">
         <input type="submit" value="Delete">
       </form>
     </div>
